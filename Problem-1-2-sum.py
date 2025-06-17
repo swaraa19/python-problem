@@ -14,6 +14,8 @@ def test_case():
         ([2, 7, 11, 15], 9),            
     ]
 
+    
+
     total_time = 0
     for i, (nums, target) in enumerate(test_cases):
         start = time.time()
